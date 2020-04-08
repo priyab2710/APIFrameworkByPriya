@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="GetPetRequest">
+      <class name="PetStore.APIAutomation.PetAPITest">
         <methods>
-          <include name="GetPet"/>
+          <include name="Post_Get_Delete_PetTest" invocation-numbers="0"/>
         </methods>
-      </class> <!-- GetPetRequest -->
+      </class> <!-- PetStore.APIAutomation.PetAPITest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
